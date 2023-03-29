@@ -1,0 +1,16 @@
+body {
+    font-family: 'Almarai', sans-serif;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main h1 {
+    color: black;
+    font-size: 10vw;
+}
