@@ -1,0 +1,17 @@
+{
+  "name": "lesson13_git",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "deploy": "parcel build index.html --public-url . && gh-pages -d dist"
+  },
+
+  "author": "ilenia gabrielli",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  }
+}
